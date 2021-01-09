@@ -17,8 +17,12 @@ function App() {
       ...tareas,
         {id: shortid.generate(), nombreTarea:tarea}
     ])
-    console.log(tareas)
     setTarea('')
+  }
+
+  const eliminarTarea = id =>{
+    const arrayFiltrado = tareas.filter(item => item.id !== id)
+    setTareas(arrayFiltrado)
   }
 
   return (
@@ -34,7 +38,7 @@ function App() {
                 tareas.map(item =>(
                   <li className="list-group-item" key={item.id}>
                     <span className="lead">{item.nombreTarea}</span>
-                    <button className="btn btn-danger btn-sm float-right mx-2">Eliminar</button>
+                    <button className="btn btn-danger btn-sm float-right mx-2" onClick={() => eliminarTarea(item.id)}>Eliminar</button>
                     <button className="btn btn-warning btn-sm float-right">Editar</button>
                   </li>
                 ))
