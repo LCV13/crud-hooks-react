@@ -1,0 +1,29 @@
+[33mcommit 252313125057818539c9a7e05cb93be2837da1cd[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Lourdes C. Villarreal <58574759+LCV13@users.noreply.github.com>
+Date:   Sat Jan 9 18:02:52 2021 -0300
+
+    Eliminar tarea
+
+[33mcommit b0f5ab63b301aa9e5216b3e0f439491f91b54ba5[m
+Author: Lourdes C. Villarreal <58574759+LCV13@users.noreply.github.com>
+Date:   Sat Jan 9 17:50:22 2021 -0300
+
+    Listar las tareas
+
+[33mcommit 070863ab200da71be71ee53628ee6fd357f19058[m
+Author: Lourdes C. Villarreal <58574759+LCV13@users.noreply.github.com>
+Date:   Sat Jan 9 17:42:31 2021 -0300
+
+    generar id
+
+[33mcommit 87d139e356b0e000fa162808e96f3b5a5eb0c84b[m
+Author: Lourdes C. Villarreal <58574759+LCV13@users.noreply.github.com>
+Date:   Sat Jan 9 16:57:59 2021 -0300
+
+    estructura del proyecto
+
+[33mcommit 624ad06b1e3c4496009c1ce15c8c8f7fdba089f4[m
+Author: Lourdes C. Villarreal <58574759+LCV13@users.noreply.github.com>
+Date:   Sat Jan 9 16:27:24 2021 -0300
+
+    Initialize project using Create React App
